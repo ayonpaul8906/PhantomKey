@@ -21,7 +21,7 @@ const plans = [
   },
   {
     name: 'Pro',
-    price: '29',
+    price: '499',
     description: 'For active development teams',
     features: [
       'Unlimited repositories',
@@ -102,7 +102,8 @@ export default function Pricing() {
                 {/* Price */}
                 <div className="mb-8">
                   <div className="flex items-baseline gap-1">
-                    <span className="text-5xl font-bold">${plan.price}</span>
+                    {plan.price !== 'Custom' && <span className="text-5xl font-bold">Rs </span>}
+                    <span className="text-5xl font-bold">{plan.price}</span>
                     {plan.price !== 'Custom' && <span className="text-foreground/60">/mo</span>}
                   </div>
                 </div>

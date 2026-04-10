@@ -414,7 +414,7 @@ export default function Dashboard() {
                 }`}
               >
                 <h3 className="text-xl font-semibold text-white">{p.name}</h3>
-                <p className="text-3xl mt-2 font-bold text-white">${p.price}</p>
+                <p className="text-3xl mt-2 font-bold text-white">Rs {p.price}</p>
                 <p className="text-sm text-gray-400 mt-1">per user / month</p>
 
                 {plan === p.name && (
