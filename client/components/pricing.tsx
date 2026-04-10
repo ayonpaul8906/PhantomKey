@@ -110,7 +110,7 @@ export default function Pricing() {
                 {/* CTA Button */}
                 <Button
                   asChild
-                  className={`w-full mb-8 transition-all hover:shadow-lg ${
+                  className={`w-full mb-8 transition-all hover:shadow-lg text-white ${
                     plan.highlighted
                       ? 'bg-primary text-primary-foreground hover:bg-primary/90 hover:shadow-primary/50'
                       : 'border border-border bg-transparent hover:bg-muted'

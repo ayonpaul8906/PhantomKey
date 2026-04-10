@@ -75,7 +75,7 @@ export default function Hero() {
             </div>
             <div className="hidden sm:block w-px h-4 bg-border" />
             <a
-              href="https://github.com/wrathops"
+              href="https://github.com/ayonpaul8906/PhantomKey"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-primary transition-colors"

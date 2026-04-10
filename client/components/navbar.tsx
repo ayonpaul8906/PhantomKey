@@ -42,6 +42,7 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
+            
             <Link href="#workflow" className="text-sm text-foreground/70 hover:text-primary transition-colors">
               Product
             </Link>
@@ -65,7 +66,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-4">
 
             <a
-              href="https://github.com/wrathops"
+              href="https://github.com/ayonpaul8906/PhantomKey"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-foreground/70 hover:text-primary transition-colors"
@@ -83,14 +84,6 @@ export default function Navbar() {
               </Button>
             ) : (
               <>
-                <Button
-                  size="sm"
-                  variant="outline"
-                  onClick={() => router.push('/dashboard')}
-                >
-                  Dashboard
-                </Button>
-
                 <Button
                   size="sm"
                   onClick={handleLogout}

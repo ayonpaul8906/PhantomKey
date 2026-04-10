@@ -40,7 +40,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-4 mt-6">
               <a
-                href="https://github.com/wrathops"
+                href="https://github.com/ayonpaul8906/PhantomKey"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors"
@@ -106,7 +106,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/wrathops" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors">
+                <a href="https://github.com/ayonpaul8906/PhantomKey" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-primary transition-colors">
                   GitHub
                 </a>
               </li>
